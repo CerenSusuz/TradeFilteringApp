@@ -16,6 +16,7 @@ namespace TradeFilteringApp.Filters
                 Bank.Bofa => new BofaFilter(),
                 Bank.Connacord => new ConnacordFilter(),
                 Bank.Barclays => new BarclaysFilter(),
+                Bank.Deutsche => new DeutscheFilter(),
                 _ => throw new NotImplementedException("Unsupported bank")
             };
         }

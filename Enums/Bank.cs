@@ -10,7 +10,8 @@ namespace TradeFilteringApp.Enums
     {
         Bofa,
         Connacord,
-        Barclays
+        Barclays,
+        Deutsche
     }
 }
 
