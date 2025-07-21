@@ -17,5 +17,12 @@ namespace TradeFilteringApp.Services
 
             return filter.Match(trades);
         }
+
+        public IEnumerable<Trade> FilterForBank(IEnumerable<Trade> trades, Bank bank, Country country)
+        {
+            var filter = FilterFactory.CreateFilter(bank, country);
+
+            return filter.Match(trades);
+        }
     }
 }
