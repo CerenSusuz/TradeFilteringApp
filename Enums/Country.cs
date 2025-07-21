@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace TradeFilteringApp.Enums
 {
-    public enum Bank
+    public enum Country
     {
-        Bofa,
-        Connacord,
-        Barclays,
-        Deutsche
+        USA,
+        England,
+        Ukraine,
+        India
     }
 }
-
